@@ -1,23 +1,19 @@
 {
-  "dependencies": {
-    "inquirer": "^8.2.0"
-  },
-  "name": "portfolio-generator",
-  "description": "portfolio",
+  "name": "project",
   "version": "1.0.0",
+  "description": "",
   "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dariga17/portfolio-generator.git"
-  },
-  "author": "dariga iskakova",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dariga17/portfolio-generator/issues"
-  },
-  "homepage": "https://github.com/dariga17/portfolio-generator#readme",
-  "devDependencies": {}
+  "dependencies": {
+    "inquirer": "^7.0.3"
+  }
 }
